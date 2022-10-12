@@ -19,16 +19,14 @@ public class Employee {
 	
 	
 	//Create New method for Change Company Name
-	static void setCompanyName(String companyName) {
-		
-		Employee.companyName = companyName;
+	void setCompanyName(String companyName) {
+		this.companyName = companyName;
 	}
 	
 	
 	//Create Method for showing Information.
 	
 	void displayInformation() {
-		setCompanyName("Hovata Tecnologies");
 		System.out.println("Id: "+ id+ "\n"+"Name: "+ name + "\n"+"Comapny Name: "+ companyName+ "\n\n");
 		
 	}

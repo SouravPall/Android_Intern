@@ -28,7 +28,6 @@ public class Employee {
 	//Create Method for showing Information.
 	
 	void displayInformation() {
-		setCompanyName("Hovata Tecnologies");
 		System.out.println("Id: "+ id+ "\n"+"Name: "+ name + "\n"+"Comapny Name: "+ companyName+ "\n\n");
 		
 	}

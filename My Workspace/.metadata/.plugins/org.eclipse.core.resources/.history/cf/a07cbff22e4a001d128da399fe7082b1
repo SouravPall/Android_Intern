@@ -14,7 +14,7 @@ public class TestEmployee {
 		employee1.displayInformation();
 		employee2.displayInformation();
 		
-		Employee.setCompanyName("Hovata Tech");
+		Employee.setCompanyName("Hovata Tecnologies");
 		
 		Employee employee3 = new Employee(103, "Mark");
 		Employee employee4 = new Employee(104, "Lisha");

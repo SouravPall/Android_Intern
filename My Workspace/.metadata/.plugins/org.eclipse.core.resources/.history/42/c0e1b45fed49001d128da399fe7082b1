@@ -1,0 +1,24 @@
+package OOP;
+
+public class Calculator {
+	
+	//Instance Variable or class level variable
+	int x;
+	int y;
+	int result;
+	
+	int doAddition(int a, int b) {
+		
+		result = a+b;
+		return result;
+	}
+	
+	int getSquare(int x){
+		
+		return x*x;
+	}
+	
+	int doSubtraction(int a, int b) {
+		return a-b;
+	}
+}

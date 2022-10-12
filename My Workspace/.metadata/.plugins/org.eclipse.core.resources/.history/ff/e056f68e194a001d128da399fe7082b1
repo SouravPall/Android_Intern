@@ -1,0 +1,28 @@
+package OOP;
+
+public class OverloadingCalculator {
+
+	int result;
+	float result1;
+	
+	int doAddition(int a, int b) {
+		result = a+b;
+		return result;
+	}
+	
+	int doAddition(int a, int b, int c) {
+		result = a+b+c;
+		return result;
+	}
+	
+	
+	double doAddition(double a, double b) {
+		return a+b;
+	}
+	
+	void display(int a, double b) {
+		System.out.println(a+b);
+	}
+
+	
+}

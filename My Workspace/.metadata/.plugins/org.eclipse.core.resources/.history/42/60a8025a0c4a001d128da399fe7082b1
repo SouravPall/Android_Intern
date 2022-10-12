@@ -1,0 +1,31 @@
+package OOP;
+
+public class TestStudent {
+	public static void main(String[] args) {
+		
+		Student st = new Student();
+		
+		st.name = "Sourav Paul";
+		st.gender = "Male";
+		st.id= 29;
+		st.dept = "CSE";
+		
+		
+		st.displayInfo();
+		
+		
+		//System.out.println("Name: "+st.name+"\n"+ "Gender: "+st.gender+"\n"+ "ID: "+st.id + "\n"+ "Dept: "+st.dept);
+		
+		System.out.println("\n");
+		Student st1 = new Student();
+		
+		st.name = "Sourav";
+		st.gender = "Male";
+		st.id= 30;
+		st.dept = "CSE";
+		
+		
+		
+	}
+
+}

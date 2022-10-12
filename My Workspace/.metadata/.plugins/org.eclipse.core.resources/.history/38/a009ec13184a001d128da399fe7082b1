@@ -1,0 +1,12 @@
+package OOP;
+
+public class OverloadingCalculator {
+
+	int result;
+	
+	int doAddition(int a, int b) {
+		result = a+b;
+		return result;
+	}
+	
+}

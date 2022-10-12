@@ -1,0 +1,19 @@
+package OOP;
+
+public class TestStudent {
+	public static void main(String[] args) {
+		
+		Student st = new Student();
+		
+		st.name = "Sourav Paul";
+		st.gender = "Male";
+		st.id= 29;
+		st.dept = "CSE";
+		
+		
+		st.displayInfo();
+		
+		
+	}
+
+}

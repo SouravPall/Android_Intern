@@ -5,15 +5,15 @@ public class TestStudent {
 		
 		Student st = new Student();
 		
-		st.name = "Sourav Paul";
-		st.gender = "Male";
-		st.id= 29;
-		st.dept = "CSE";
+		
+		st.setInfo(29, "Sourav Paul", "Male", "CSE");
+		st.displayInfo();
 		
 		
-		System.out.println("Name: "+st.name+"\n"+ "Gender: "+st.gender+"\n"+ "ID: "+st.id + "\n"+ "Dept: "+st.dept);
+		Student st1 = new Student();
 		
-		
+		st1.setinformation(st);
+		st.displayInfo();
 	}
 
 }

@@ -1,0 +1,17 @@
+package OOP;
+
+public class Student {
+	
+		String name, gender, dept;
+		int id;
+		
+		
+		
+		
+		
+		void displayInfo(){
+			
+			System.out.println("id: "+id+"\n"+"Name: "+name+"\n"+"Gender: "+gender+"\n"+ " Dept: "+ dept);
+		}
+
+}

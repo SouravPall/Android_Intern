@@ -1,0 +1,15 @@
+package DesignPattern;
+
+public class Student {
+
+	private static final Student STUDENT_OBJ = new Student();
+	
+	private Student(){
+		
+	}
+	
+	public static Student getStudentInstance() {
+		return STUDENT_OBJ;
+	}
+	
+}

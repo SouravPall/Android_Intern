@@ -1,0 +1,9 @@
+package DesignPattern;
+
+public class Student {
+
+	private Student(){
+		
+	}
+	
+}

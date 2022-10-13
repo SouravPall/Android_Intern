@@ -1,0 +1,15 @@
+package Encapsulation;
+
+public class Employee {
+
+	private int id;
+	private String empName;
+	private long empACno;
+	private String empEmail;
+	private double empBlance;
+	
+	
+	
+	
+	
+}

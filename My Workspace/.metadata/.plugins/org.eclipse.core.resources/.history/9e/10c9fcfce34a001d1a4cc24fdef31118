@@ -1,0 +1,61 @@
+package Encapsulation;
+
+public class Employee {
+
+	private int empID;
+	private String empName;
+	private long empACno;
+	private String empEmail;
+	private double empBlance;
+	
+	
+	//employee id
+	public void setempID(int empID) {
+		this.empID = empID;
+	}
+	
+	public int getempID(int empID) {
+		return empID;
+	}
+	
+	
+	//employee name 
+	public void setempName(String empName) {
+		
+		this.empName = empName;
+	}
+	
+	public String getempName() {
+		
+		return empName;
+	}
+	
+	
+	//employee account number
+	public void setempACno(long empACno) {
+		this.empACno = empACno;
+	}
+	
+	public long getempACno() {
+		return empACno;
+	}
+	
+	
+	//employee email 
+	public void setempEmail(String empEmail) {
+		this.empEmail = empEmail;
+	}
+	public String getempEmail() {
+		return empEmail;
+	}
+	
+	//employee blance 
+	public void setempBlance(double empBlance) {
+		this.empBlance = empBlance;
+	}
+	public double getempBlance() {
+		return empBlance;
+	}
+	
+	
+}

@@ -1,0 +1,28 @@
+package Static;
+
+public class StaticInnerOuter {
+
+	
+	static int x = 10;
+	
+	static class Inner{
+		
+		
+		//method 
+		void msg() {
+			System.out.println(x);
+		}
+		
+	}
+	
+	//main method
+	public static void main(String[] args) {
+		
+		
+		//Create Object
+		StaticInnerOuter innerOuter = new StaticInnerOuter();
+		
+		innerOuter.getClass();
+	}
+	
+}

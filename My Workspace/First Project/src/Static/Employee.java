@@ -17,7 +17,6 @@ public class Employee {
 	}
 	
 	
-	
 	//Create New method for Change Company Name
 	static void setCompanyName(String companyName) {
 		
@@ -28,7 +27,7 @@ public class Employee {
 	//Create Method for showing Information.
 	
 	void displayInformation() {
-		setCompanyName("Hovata Tecnologies");
+		
 		System.out.println("Id: "+ id+ "\n"+"Name: "+ name + "\n"+"Comapny Name: "+ companyName+ "\n\n");
 		
 	}

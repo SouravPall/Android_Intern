@@ -24,7 +24,6 @@ public class Test6 {
 	public static void main(String[] args) {
 		
 		ABCD abcd = new ABCD();
-		
 		ABCD abcd1 = abcd.getABCobj();
 		
 		System.out.println(abcd1);

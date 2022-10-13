@@ -1,0 +1,31 @@
+package This;
+
+
+
+
+class ABC{
+	
+	public ABC getABCobj() {
+		
+		return this;
+	}
+	
+	
+	void dispalyInfo() {
+		
+		System.out.println("Method is Invoked");
+	}
+}
+
+
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		
+		ABC abc = new ABC();
+		
+		abc.dispalyInfo();
+		
+	}
+}

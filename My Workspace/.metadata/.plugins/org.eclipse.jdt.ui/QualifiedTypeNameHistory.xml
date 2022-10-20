@@ -13,4 +13,7 @@
     <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
     <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="MVCdemo.CourseModel"/>
+    <fullyQualifiedTypeName name="MVCdemo.CourseView"/>
+    <fullyQualifiedTypeName name="MVCdemo.CourseController"/>
 </qualifiedTypeNameHistroy>

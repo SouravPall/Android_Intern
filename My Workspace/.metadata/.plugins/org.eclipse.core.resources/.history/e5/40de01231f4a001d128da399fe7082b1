@@ -1,8 +1,0 @@
-package Constructor;
-
-public class Student {
-
-	Student(){
-		System.out.println("I am a defult constractor");
-	}
-}

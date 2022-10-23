@@ -2,7 +2,12 @@ package DesignPattern;
 
 public class StudentLazyInitialization {
 	
-	int a = 5;
+	/*
+	 * 
+	 * 
+	 * ---------Thread safe Lazy Initialization-----
+	 
+	 int a = 5;
 	
 	private static StudentLazyInitialization lazyInitialization;
 	
@@ -21,4 +26,43 @@ public class StudentLazyInitialization {
 		return lazyInitialization;
 	}
 
+	 
+	 */
+	
+	/*
+	 * 
+	 * 
+	 * Double Check Locking Principal--------
+	 */
+	
+	private static StudentLazyInitialization lazyInitialization;
+	
+	private StudentLazyInitialization() {
+		
+	}
+	
+	public static StudentLazyInitialization getThreadSafeInstance() {
+		
+		if(lazyInitialization == null) {
+			synchronized (StudentLazyInitialization.class) {
+				
+				if(lazyInitialization == null) {
+					lazyInitialization = new StudentLazyInitialization();
+				}
+				
+			}
+		}
+		
+		return lazyInitialization;
+	}
+	 
+	 
+	 
+	 
+	  
+	  
+	  
+	  
+	  
+	 
 }

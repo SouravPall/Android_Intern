@@ -16,4 +16,9 @@
     <fullyQualifiedTypeName name="MVCdemo.CourseModel"/>
     <fullyQualifiedTypeName name="MVCdemo.CourseView"/>
     <fullyQualifiedTypeName name="MVCdemo.CourseController"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
 </qualifiedTypeNameHistroy>

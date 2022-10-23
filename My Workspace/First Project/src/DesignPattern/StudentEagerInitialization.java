@@ -4,6 +4,7 @@ public class StudentEagerInitialization {
 	
 	int a = 5;
 
+	//----------Static Aproach
 	private static StudentEagerInitialization Student_obj;
 	
 	private StudentEagerInitialization() {

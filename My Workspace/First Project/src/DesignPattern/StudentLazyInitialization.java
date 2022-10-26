@@ -2,12 +2,13 @@ package DesignPattern;
 
 public class StudentLazyInitialization {
 	
+	int a = 5;
 	/*
 	 * 
 	 * 
 	 * ---------Thread safe Lazy Initialization-----
 	 
-	 int a = 5;
+	 
 	
 	private static StudentLazyInitialization lazyInitialization;
 	

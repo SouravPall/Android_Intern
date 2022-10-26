@@ -21,4 +21,6 @@
     <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="DesignPattern.StudentEagerInitialization"/>
+    <fullyQualifiedTypeName name="DesignPattern.StudentLazyInitialization"/>
 </qualifiedTypeNameHistroy>

@@ -33,6 +33,11 @@ public class StudentLazyInitialization {
 	/*
 	 * 
 	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
 	 * Double Check Locking Principal--------
 	 */
 	
